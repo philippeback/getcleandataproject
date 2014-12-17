@@ -1,6 +1,7 @@
 Introduction
 ============
-The code book contains a general description of the raw data set, the processing done and the resulting tidy data set. 
+
+This codebook contains a general description of the raw data set, the processing done and the resulting tidy data set. 
 
 The tidy data that can be used for later analysis.
 
@@ -49,9 +50,7 @@ There is one R script called run_analysis.R that does the following transformati
 Please note that the list above does not mandates a particular order in the steps, only that it _does the following_.
 This is mentioned because following the order blindly leads to lots of complications in column selection where one would have to shift column index ids and so on, making it a source of hard to spot problems.
 
-There is also a README.md which focuses on the details of how all works together.
 
-This file is the Codebook.md file that explains the tidy data set.
 
 
 Raw Data
