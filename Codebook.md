@@ -5,6 +5,12 @@ This codebook contains a general description of the raw data set, the processing
 
 The tidy data that can be used for later analysis.
 
+The tidy data is available in a tidyData.txt file which can be read into R using:
+
+```
+data <- read.table('tidyData.txt', header = TRUE)
+```
+
 Experimental design
 ===================
 
@@ -264,7 +270,7 @@ mergedData <- merge(assembledData,activityLabelsData)
 Removal of unnecessary activityId column
 ----------------------------------------
 
-The ActivityId column is not needed anymore as it was solely useful for joining. As it represents the same data as activity, we can get rid of it.
+The activityId column is not needed anymore as it was solely useful for joining. As it represents the same data as activity, we can get rid of it.
 
 ```
 mergedData <- mergedData[ ,-which(names(mergedData) %in% c("activityId"))]
