@@ -1,7 +1,7 @@
 Introduction
 ============
 The code book contains a general description of the raw data set, the processing done and the resulting tidy data set. 
-This README focusses on how the analysis script works and zooms in on some of the processing details.
+
 The tidy data that can be used for later analysis.
 
 Experimental design
