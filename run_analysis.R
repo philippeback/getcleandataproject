@@ -10,7 +10,8 @@ library(tidyr)
 # I've downloaded the sets on my machine
 # Here I've unzipped the getdata_projectfiles_UCI\ HAR\ Dataset.zip to get the various files
 
-dataLocation <- "./data/UCI HAR Dataset"
+#dataLocation <- "./data/UCI HAR Dataset"
+dataLocation <- "."
 
 print("Reading data")
 print("  reading activity labels")
